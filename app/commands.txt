@@ -1,0 +1,20 @@
+# --- ONE-TIME SETUP ---
+# Create the environment
+python -m venv .venv
+
+# Activate (Windows)
+.venv\Scripts\activate
+
+# Activate (Mac/Linux)
+source .venv/bin/activate
+
+# --- INSTALLING ---
+# Install your specific needs first
+pip install flask flask-sqlalchemy python-dotenv
+
+# OR Install everything from a shared list
+pip install -r requirements.txt
+
+# --- SAVING YOUR PROGRESS ---
+# Update the "shopping list" whenever you install something new
+pip freeze > requirements.txt
