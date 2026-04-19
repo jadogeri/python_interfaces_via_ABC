@@ -13,7 +13,6 @@ License: MIT
 
 from app.src.interfaces.payment import Payment
 
-
 class BitCoin(Payment):
     """Handles Bitcoin payment processing logic."""
 
