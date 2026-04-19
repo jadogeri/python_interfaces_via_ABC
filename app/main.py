@@ -11,10 +11,10 @@ File: main.py
 License: MIT
 """
 
-from app.src.bitcoin import BitCoin
-from app.src.credit_card import CreditCard
-from app.src.debit_card import DebitCard
-from app.src.interfaces.payment import Payment
+from src.bitcoin import BitCoin
+from src.credit_card import CreditCard
+from src.debit_card import DebitCard
+from src.interfaces.payment import Payment
 
 
 def main() -> None:
