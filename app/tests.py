@@ -1,3 +1,17 @@
+
+"""
+Payment System Unit Tests
+-------------------------
+Description: Validates the processing logic for various payment implementations
+             using a protocol-based interface.
+
+Author: Joseph Adogeri
+Version: 1.0.0
+Since: 2023-10-27
+File: tests.py
+License: MIT
+"""
+
 import unittest
 from io import StringIO
 from unittest.mock import patch
@@ -7,7 +21,6 @@ from app.src.bitcoin import BitCoin
 from app.src.credit_card import CreditCard
 from app.src.debit_card import DebitCard
 from app.src.interfaces.payment import Payment
-
 
 class PaymentTest(unittest.TestCase):
 
