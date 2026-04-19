@@ -31,4 +31,6 @@ jobs:
     - name: Test with pytest
       run: |
         conda install pytest
-        pytest
+        # Set PYTHONPATH so pytest can find the 'src' directory
+        # and point it specifically to your app/tests.py file
+        PYTHONPATH=. pytest app/tests.py
