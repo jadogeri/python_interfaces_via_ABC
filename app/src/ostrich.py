@@ -1,0 +1,20 @@
+"""
+Payment System - Ostrich Implementation
+---------------------------------------
+Description: Concrete implementation of the Bird interface for 
+             Ostrich behavior.
+
+Author: Joseph Adogeri
+Version: 1.0.0
+Since: 2026-04-27
+File: eagle.py
+License: MIT
+"""
+
+from app.src.interfaces.payment import Payment
+
+class Ostrich(Bird):
+
+    """Handles Ostrich behavior logic."""
+    def eat(self):
+        return "Ostrich eats plants."
