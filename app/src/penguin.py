@@ -11,8 +11,8 @@ File: penguin.py
 License: MIT
 """
 
-from app.src.interfaces.bird import Bird
-from app.src.interfaces.swimmable import Swimmable
+from src.interfaces.bird import Bird
+from src.interfaces.swimmable import Swimmable
 class Penguin(Bird, Swimmable):
 
     def swim(self):

@@ -11,7 +11,7 @@ File: ostrich.py
 License: MIT
 """
 
-from app.src.interfaces.bird import Bird
+from src.interfaces.bird import Bird
 class Ostrich(Bird):
 
     """Handles Ostrich behavior logic."""

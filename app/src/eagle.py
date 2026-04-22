@@ -11,8 +11,8 @@ File: eagle.py
 License: MIT
 """
 
-from app.src.interfaces.bird import Bird
-from app.src.interfaces.flyable import Flyable
+from src.interfaces.bird import Bird
+from src.interfaces.flyable import Flyable
 class Eagle(Bird, Flyable):
 
     def fly(self):
